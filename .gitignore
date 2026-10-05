@@ -1,0 +1,47 @@
+# Virtual environments
+.venv/
+venv/
+env/
+.env/
+
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+*.autosave.*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Local/raw datasets (large source files; keep them out of GitHub)
+data/*.csv
+data/*.csv.gz
+data/*.zip
+data/*.parquet
+
+# Local secrets
+.env
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Local project notes (keep available locally, never publish)
+A?ENTS.md
+PROJ?CT.md
